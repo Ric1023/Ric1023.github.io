@@ -1,0 +1,105 @@
+body {
+  background-color: rgb(201, 191, 191);
+  height: 1020px;
+}
+
+.header {
+  background-color: rgba(10, 154, 10, 0.724);
+  height: 75px;
+  display: flex;
+}
+
+.title{
+  padding-left: 600px;
+  font-size: 25px;
+  color: white;
+  font-family: Matemasie;
+  display: flex;
+}
+
+.intro {
+  margin-left: 500px;
+  font-size: 25px;
+  color: white;
+  font-family: Matemasie;
+  display: flex;
+}
+
+.welcome {
+  font-family: Matemasie;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 250px;
+  display: flex;
+}
+
+.sign-out-button {
+  margin-left: 1600px;
+}
+
+.all-games {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 25px;
+}
+
+.game-container {
+  border-style: dashed;
+  width: 335px;
+  height: 550px;
+  border-color: rgb(248, 252, 2);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.pikmin-game {
+  margin-left: 45px;
+  width: 250px;
+}
+
+.pikmin-game:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.pikmin-game-switch {
+  margin-left: 60px;
+  width: 215px;
+}
+
+.pikmin-game-switch:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+.game-description {
+  font-family: Matemasie;
+  font-size: 13px;
+  position: absolute;
+  color: black;
+}
+
+.more-info {
+  display: grid;
+  grid-template-columns: 450px 100px;
+  margin-top: 30px;
+}
+
+.extras {
+  border-style: dashed;
+  border-color: rgb(248, 252, 2);
+  background-color: white;
+  font-size: 16px;
+  width: 400px;
+}
+
+.personal {
+  border-style: dashed;
+  border-color: rgb(248, 252, 2);
+  background-color: white;
+  width: 287px;
+  height: 55px;
+}
